@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #711423;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #e0e3f0;
+    height: 100%;
+    min-height: 100vh;
+    border: 20px solid white;
+    position: relative;
+}
+
+header {
+    margin: 20px 0 0 50px;
+}
+
+ul {
+    list-style: none;
+    position: fixed;
+    top: 50%;
+   -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+li {
+    font-size: 30px;
+    margin: 30px 0;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    font-weight: 700;
+}
+footer {
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+}
