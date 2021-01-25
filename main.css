@@ -14,7 +14,7 @@
     position: absolute;
 } 
 header {
-    margin: 20px 0 0 50px;
+    margin: 40px 0 0 70px;
     position: fixed;
     height: 90vh;  
 }
@@ -42,6 +42,8 @@ a:hover {
 main {
     width: 80%;
     float: right;
+    border: 10px solid black;
+
 }
 
 /* Home Page */
@@ -50,6 +52,7 @@ main {
     flex-direction: column;
     position: absolute;
     top: 30%;
+    border: 2px solid black;
 }
 .intro {
     font-weight: 100;
@@ -63,18 +66,12 @@ main {
 }
 
 
-.arrow-container {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 85vh ;
-    
+.call-to-action {
+    display: inline-flex;
+    border: 2px solid #711423;
+    text-align: center;
 }
-.arrow {
-    
 
-  
-}
 
 footer {
     position: fixed;
