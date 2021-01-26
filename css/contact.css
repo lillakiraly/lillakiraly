@@ -35,6 +35,46 @@ a {
 a:hover {
     font-weight: 700;
 }
+.contact {
+    position: relative;
+    width: 70%;
+    top: 7vmin;
+    right: 5%;
+    float: right; 
+}
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+    margin: 20px 0 30px 0;
+    line-height: 1.2em;
+}
+h3{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 40px 0 0 0;
+}
+button {
+    font-size: 20px;
+    font-weight: 700;
+    border: 1px solid #711423;
+    background-color:#e0e3f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: color 0.4s linear;
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+    color: white;
+    background-color:#711423;
+}
+.social {
+    text-decoration: underline;
+}
 footer {
     position: fixed;
     bottom: 4%;
