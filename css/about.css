@@ -35,6 +35,21 @@ a {
 a:hover {
     font-weight: 700;
 }
+.about {
+    position: relative;
+    width: 70%;
+    top: 7vmin;
+    right: 5%;
+    float: right; 
+}
+
+.glider-contain.multiple {
+    margin-left: -20px;
+    
+}
+.glider {
+    margin: 40px 0px 0px 0px;
+}
 footer {
     position: fixed;
     bottom: 4%;
