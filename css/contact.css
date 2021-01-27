@@ -73,9 +73,6 @@ button:hover {
 .social {
     text-decoration: underline;
 }
-footer {
-    position: fixed;
-}
 
 
 @media only screen and (min-width: 801px) {
@@ -85,6 +82,7 @@ footer {
         transform: translateY(-50%);
     }
     footer {
+        position: fixed;
         bottom: 4%;
         right: 3%;
     }
@@ -116,7 +114,8 @@ footer {
        
     }
     footer {
-        top: 45px;
+        position: absolute;
+        top: 25px;
         right: 7%;
     }
 }

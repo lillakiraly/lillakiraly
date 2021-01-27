@@ -68,9 +68,7 @@ a:hover {
     color: white;
     background-color:#711423;
 }
-footer {
-    position: fixed;
-}
+
 @media only screen and (min-width: 801px) {
     ul {
         top: 50%;
@@ -84,6 +82,7 @@ footer {
         margin-left: 40px;
     }
     footer {
+        position: fixed;
         bottom: 4%;
         right: 3%;
     }
@@ -119,7 +118,8 @@ footer {
     }
 
     footer {
-        top: 45px;
+        position: absolute;
+        top: 25px;
         right: 7%;
     }
 }
