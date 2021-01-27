@@ -37,17 +37,16 @@ a:hover {
 .welcome {
     position: relative;
     width: 78%;
-    float: right;
-    top: 10vh;
+    top: 100px;
 }
 .intro {
     font-size: 90px;
     font-weight: 100;
 }
 .intro-2 {
-    margin: 30px 0 0 40px;
     line-height: 1.5em;
     font-size: 30px;
+    margin-top: 40px;
 }
 
 .call-to-action {
@@ -77,6 +76,12 @@ footer {
         top: 50%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+    }
+    .welcome {
+        float: right;
+    }
+    .intro-2 {
+        margin-left: 40px;
     }
     footer {
         bottom: 4%;
@@ -109,8 +114,34 @@ footer {
         margin: 30px 0;
        
     }
+    .welcome {
+        margin: 100px auto;
+    }
+
     footer {
         top: 45px;
         right: 7%;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    li {
+        font-size: 20px;
+    }
+    .intro {
+        font-size: 55px;
+    }
+    .intro-2 {
+        font-size: 23px;
+    }
+    header {
+        margin-left: 25px;
+    }
+    ul {
+        margin-right:-25px;
+    }
+    .welcome {
+        top: 60px;
+    }
+    
 }
