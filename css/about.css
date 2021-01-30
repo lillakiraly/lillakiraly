@@ -146,8 +146,9 @@ p {
 
     footer {
         position: absolute;
+        right: 0%;
         top: 25px;
-        right: 7%;
+        margin-right: 25px;
         
     }
     h1 {
@@ -192,6 +193,14 @@ p {
     header {
         margin-left: 25px;
     }
+    .logo {
+        width: 45px;
+        height: 45px;
+    }
+    .social-logo {
+        width: 35px;
+        height: 35px;
+    }
     ul {
         margin-right:-25px;
     }
@@ -209,6 +218,9 @@ p {
     }
     .project-images {
         width: 90%;
+    }
+    footer {
+        margin-right: 10px;
     }
     
 }

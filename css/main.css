@@ -119,14 +119,23 @@ a:hover {
 
     footer {
         position: absolute;
+        right: 0%;
         top: 25px;
-        right: 7%;
+        margin-right: 25px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     li {
         font-size: 20px;
+    }
+    .logo {
+        width: 45px;
+        height: 45px;
+    }
+    .social-logo {
+        width: 35px;
+        height: 35px;
     }
     .intro {
         font-size: 55px;
@@ -143,5 +152,7 @@ a:hover {
     .welcome {
         top: 60px;
     }
-    
+    footer {
+        margin-right: 10px;
+    }
 }

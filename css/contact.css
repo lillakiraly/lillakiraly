@@ -158,6 +158,14 @@ li {
 ul {
     margin-right:-25px;
 }
+.logo {
+    width: 45px;
+    height: 45px;
+}
+.social-logo {
+    width: 35px;
+    height: 35px;
+}
 h1 {
     font-size: 40px;
 }
@@ -176,6 +184,9 @@ button {
     text-align: center;
     margin-left: -10px;
     font-size: 18px;
+}
+footer {
+    margin-right: 10px;
 }
 
 }
