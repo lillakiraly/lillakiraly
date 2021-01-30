@@ -36,18 +36,57 @@ a:hover {
 .about {
     position: relative;
     width: 70%;
-    top: 7vmin;
-    right: 5%;
-    float: right; 
 }
 
-.glider-contain.multiple {
-    margin-left: -20px;
-    
-}
+
 .glider {
     margin: 40px 0px 0px 0px;
 }
+img {
+    width: 100%;
+    height: auto;
+}
+section {
+    display: flex;
+}
+.about-description {
+    flex: 2;
+}
+h1 {
+    font-weight: 100;
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+}
+h3{
+    font-weight: 100;
+    color: black;
+}
+
+p {
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.project-images {
+
+   align-self: center; 
+    
+}
+.about-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.about-img {
+   height: 100%;
+   max-height: 200px;
+   width: auto;
+   margin: 0px 10px 10px 0;
+   
+}
+
 
 
 @media only screen and (min-width: 801px) {
@@ -55,6 +94,25 @@ a:hover {
         top: 50%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+    }
+    .about {
+        float: right;
+        right: 5%; 
+        top: 7vmin;
+    }
+    .glider-contain.multiple {
+        margin-left: -20px;
+        
+    }
+    .about-description {
+        margin: 0px 0px 0px 30px;
+    }
+    p {
+        padding-right: 30px;
+    }
+    .project-images {
+        margin: 0px 20px 0px 0px;
+        flex: 1;
     }
     footer {
         position: fixed;
@@ -64,9 +122,7 @@ a:hover {
 }
 
 @media only screen and (max-width: 800px) {
-    button {
-        display: none;
-    }
+
     nav {
         width: 100%;
         display: flex;
@@ -80,17 +136,79 @@ a:hover {
         background-color: white;
         justify-content: space-around;
         box-shadow: 12px -10px 20px 1px rgba(0, 0, 0, 0.15);
-        
-       
+          
     }
     li {
         font-size: 30px;
         margin: 30px 0;
        
     }
+
     footer {
         position: absolute;
         top: 25px;
         right: 7%;
+        
     }
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    .about {
+        margin: auto;
+        top: 80px;
+    }
+    section {
+        flex-direction: column-reverse;
+    }
+    .about-description {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .project-images {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .glider {
+        padding-bottom: 60px;
+        
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+    li {
+        font-size: 20px;
+    }
+    header {
+        margin-left: 25px;
+    }
+    ul {
+        margin-right:-25px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .project-images {
+        width: 90%;
+    }
+    
 }
