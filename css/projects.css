@@ -72,7 +72,7 @@ p {
 }
 .project-images {
 
-   align-self: center; 
+   
     
 }
 
@@ -98,7 +98,6 @@ p {
 }
 iframe {
     width: 50%;
-    
 }
 
 
@@ -112,7 +111,9 @@ iframe {
         float: right;
         right: 5%; 
         top: 7vmin;
+       
     }
+    
     .glider-contain.multiple {
         margin-left: -20px;
         
@@ -126,6 +127,7 @@ iframe {
     .project-images {
         margin: 0px 20px 0px 0px;
         flex: 1;
+        min-width: 300px;
     }
     footer {
         position: fixed;
@@ -189,6 +191,7 @@ iframe {
     .project-images {
         width: 80%;
         margin-bottom: 20px;
+        align-self: center;
     }
     .glider {
         padding-bottom: 60px;
