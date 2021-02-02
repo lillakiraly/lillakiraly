@@ -21,7 +21,7 @@ header {
 ul {
     list-style: none;
     position: fixed;
-    z-index: 1;
+    z-index: 3;
 }
 li {
     font-size: 30px;
@@ -91,6 +91,14 @@ p {
 .project-button:hover {
     color: white;
     background-color:#711423;
+}
+.showreel {
+    display: block;
+    text-align: center;
+}
+iframe {
+    width: 50%;
+    
 }
 
 
@@ -184,6 +192,11 @@ p {
     }
     .glider {
         padding-bottom: 60px;
+        
+    }
+    iframe {
+        width: 90%;
+        margin-left: 20px;
         
     }
     
