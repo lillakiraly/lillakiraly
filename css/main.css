@@ -143,7 +143,9 @@ a:hover {
     .intro-2 {
         font-size: 23px;
     }
-   
+    header {
+        margin-left: 25px;
+    }
     ul {
         margin-right:-25px;
     }
