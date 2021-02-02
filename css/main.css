@@ -114,7 +114,14 @@ a:hover {
        
     }
     .welcome {
-        margin: 100px auto;
+        margin: 100px auto 270px auto;
+    }
+    .intro {
+        font-size: 75px;
+
+    }
+    .intro-2 {
+        font-size: 27px;
     }
 
     footer {
