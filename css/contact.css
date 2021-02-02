@@ -112,8 +112,9 @@ ul {
     background-color: white;
     justify-content: space-around;
     box-shadow: 12px -10px 20px 1px rgba(0, 0, 0, 0.15);
-      
+    margin-right: -25px;
 }
+
 li {
     font-size: 30px;
     margin: 30px 0;
@@ -156,9 +157,7 @@ li {
     font-size: 20px;
 }
 
-ul {
-    margin-right:-25px;
-}
+
 .logo {
     width: 45px;
     height: 45px;
